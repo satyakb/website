@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded());
 app.use(cookieParser());
 
 // apps
-var therainiscoming = require('../yo-rain/app');
+var therainiscoming = require('../projects/therainiscoming/app');
 
 app.use('/therainiscoming', therainiscoming);
 

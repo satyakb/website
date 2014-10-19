@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 var debug = require('debug')('expressBoilerplate');
 var app = require('../app');
+// var vhost = require('vhost'); 
+// var apps = require('/root/apps/therainiscoming/app');
 
-// var apps = require('../../yo-rain/app');
+// app.use(vhost('app.satyakb.com', apps));
 
 app.set('port', process.env.PORT || 80);
 

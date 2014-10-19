@@ -21,7 +21,8 @@
     "morgan": "~1.0.0",
     "node-schedule": "^0.1.13",
     "request": "^2.45.0",
-    "static-favicon": "~1.0.0"
+    "static-favicon": "~1.0.0",
+    "vhost": "~3.0.0"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
