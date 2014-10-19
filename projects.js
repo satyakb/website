@@ -4,6 +4,7 @@ var favicon = require('static-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var tilde = require('tilde-expansion');
 
 var app = express();
 
@@ -15,7 +16,10 @@ app.use(cookieParser());
 
 // apps
 // projects/therainiscoming
-var therainiscoming = require('../projects/therainiscoming/app');
+var therainiscoming;
+tilde('~/Projects', function(s) {
+    therainiscoming = require(s + '/therainiscoming/app')
+})
 
 app.use('/therainiscoming', therainiscoming);
 

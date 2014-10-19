@@ -22,6 +22,7 @@
     "node-schedule": "^0.1.13",
     "request": "^2.45.0",
     "static-favicon": "~1.0.0",
+    "tilde-expansion": "0.0.0",
     "vhost": "~3.0.0"
   },
   "devDependencies": {
