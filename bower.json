@@ -6,6 +6,8 @@
     "Satya Bodduluri <skbodduluri@gmail.com>"
   ],
   "dependencies": {
-    "jquery": "~2.1.1"
+    "jquery": "~2.1.1",
+    "paper-ripple": "Polymer/paper-ripple#~0.4.2",
+    "core-icon": "Polymer/core-icon#~0.4.2"
   }
 }
