@@ -35,6 +35,14 @@ $(function() {
 
   $('body').on('mousewheel', function() {
     scrollPos = $(document).scrollTop();
+    if (scrollPos > 10)
+      $('.fab').css({
+        'display': 'inline-block'
+      });
+    else
+      $('.fab').css({
+        'display': 'none'
+      });
     $('.fab').css({
         'opacity': 0+(Math.min(scrollPos/200,1))
     });
