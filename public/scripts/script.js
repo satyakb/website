@@ -10,7 +10,7 @@ $(function() {
     var prop = collapse.prop('icon');
     if (prop === 'remove') collapse.prop('icon', 'add');
     else collapse.prop('icon', 'remove');
-    
+
     $(this).siblings('.content').slideToggle();
   })
   $('a').click(function(e) {
@@ -21,8 +21,8 @@ $(function() {
     $( this ).fadeTo( 200, 0);
   })
 
-  var email = "satyab";
-  var emailHost = "seas.upenn.edu";
+  var email = "skbodduluri";
+  var emailHost = "gmail.com";
   var li = $('<li/>');
   var a = $('<a/>', {
     href: "mail" + "to:" + email + "@" + emailHost,
